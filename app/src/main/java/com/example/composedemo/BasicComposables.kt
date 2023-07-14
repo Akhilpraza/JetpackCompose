@@ -75,7 +75,7 @@ fun TextFunction() {
 @Composable
 fun ButtonFunction() {
     Button(onClick = {
-        //your onclick code here
+        //onclick code here
     }) {
         Text(text = "Button")
     }
@@ -96,7 +96,7 @@ fun ImgFunction() {
 fun ButtonWithColor() {
     Button(
         onClick = {
-            //your onclick code
+            //onclick code
         },
         colors = ButtonDefaults.buttonColors(backgroundColor = Color.DarkGray)
     )
@@ -109,7 +109,7 @@ fun ButtonWithColor() {
 @Composable
 fun ButtonWithTwoTextView() {
     Button(onClick = {
-        //your onclick code here
+        //onclick code here
     }) {
         Text(text = "Click ", color = Color.Magenta)
         Text(text = "Here", color = Color.Green)
@@ -139,7 +139,7 @@ fun ButtonWithRoundCornerShape() {
 fun ButtonWithBorder() {
     Button(
         onClick = {
-            //your onclick code
+            //onclick code
         },
         border = BorderStroke(1.dp, Color.Red),
         colors = ButtonDefaults.outlinedButtonColors(contentColor = Color.Red)
@@ -152,7 +152,7 @@ fun ButtonWithBorder() {
 fun ButtonWithElevation() {
     Button(
         onClick = {
-            //your onclick code here
+            //onclick code here
         }, elevation = ButtonDefaults.elevation(
             defaultElevation = 10.dp,
             pressedElevation = 15.dp,
