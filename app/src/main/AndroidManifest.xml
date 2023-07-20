@@ -16,12 +16,62 @@
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.ComposeDemo">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+        </activity>
+
+        <activity
+            android:name=".BasicComposables"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.ComposeDemo">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+        </activity>
+
+        <activity
+            android:name=".CalculatorApp.Calculator"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.ComposeDemo">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+        </activity>
+
+        <activity
+            android:name=".BizCard.BizCardActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.ComposeDemo">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+        </activity>
+
+        <activity
+            android:name=".IntroToCompose.IntroActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.ComposeDemo">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+
     </application>
 
 </manifest>

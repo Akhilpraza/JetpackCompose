@@ -30,7 +30,8 @@ class BasicComposables : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            Text(text = "Hello Akhil")
+            //Text(text = "Hello Akhil")
+            com.example.composedemo.Preview()
 
         }
     }
