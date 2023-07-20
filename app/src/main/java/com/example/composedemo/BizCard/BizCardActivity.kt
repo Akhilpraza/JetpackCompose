@@ -40,7 +40,7 @@ class BizCardActivity : ComponentActivity() {
 
     @Composable
     private fun Getting() {
-        //Text(text = "Hello $name!")
+        // Text(text = "Hello $name!")
         CreateBizCard()
     }
 }
